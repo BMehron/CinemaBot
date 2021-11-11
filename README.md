@@ -1,11 +1,11 @@
 # Cinema Bot
-Телеграм бот, который по названию фильма или сериала, дает список фильмов и сериалов с похожими названиями.
-Вы можете кликнуть на любой из этих фильмов, чтобы получить более подробную информацию о фильме, например дату релиза,
-продолжительность, краткое описание и т.д.. Также бот предостваляет ссылки на сайты (кнопка смотреть онлайн), где можно посмотреть этот фильм.
+Telegram bot, which by the name of a movie or TV series, gives a list of movies and TV series with similar names.
+You can click on any of these movies to get more detailed information about the movie, such as release date,
+duration, short description, etc. The bot also provides links to sites (watch online button) where you can watch this movie.
 ## API
-1. В качестве библиотеки для работы с API Телеграма, использовал aiogram.
-2. В качестве базы данных фильмов, использую TMDB. Средний рейтинг фильмов, это рейтинг фильма именно с этого сайта.
+1. As a library for working with the Telegram API, I used aiogram.
+2. As a movie database, I use TMDB.
 
-Все сетевые запросы которые делает бот выполняются асинхронно.
+All network requests that the bot makes are executed asynchronously.
  
-Если будет не понятно как делать запросы боту, то команда /help вам в помощь=)
+If it is not clear how to make requests to the bot, then the / help command will help you =)
